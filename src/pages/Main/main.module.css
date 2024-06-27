@@ -1,0 +1,96 @@
+.mainContainer {
+  height: 100%;
+  margin-left: 20rem;
+}
+
+.contentContainer {
+  padding: 2rem;
+}
+
+.contentContainer h1 {
+  color: var(--orange-500);
+  margin-bottom: 2rem;
+}
+
+.avatar {
+  height: 5rem;
+  width: 5rem;
+}
+
+.friendIcon {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 5px;
+}
+
+.inputContainer {
+  background-color: var(--gray-700);
+  width: fit-content;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.inputContainer > p {
+  color: var(--orange-500);
+}
+
+.friendContainer {
+  align-items: center;
+  background-color: var(--gray-700);
+  border-radius: 1rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1.5rem;
+}
+
+.friendContainer:hover {
+  background-color: var(--gray-600);
+}
+
+.notificationTitle {
+  background-color: transparent;
+  display: block;
+  margin-top: 1rem;
+  color: var(--gray-400);
+}
+
+aside {
+  height: 100%;
+  width: 20rem;
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  left: 0;
+  overflow-x: hidden;
+  padding: 1rem 1rem 1rem 1rem;
+  background-color: var(--gray-800);
+  gap: 1rem;
+}
+
+aside > header {
+  color: var(--orange-500);
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+img {
+  size: 20px;
+}
+
+textarea {
+  margin-top: 1rem;
+  width: 30rem;
+  height: 10rem;
+  border-radius: 5px;
+  background: transparent;
+  resize: none;
+  color: var(--gray-400);
+  padding: 5px;
+}
